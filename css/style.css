@@ -1,0 +1,756 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.text-color1 {
+    color: #343434;
+
+}
+
+.text-color3 {
+    color: #748182;
+}
+
+.text-colorp {
+    color: #748182;
+
+}
+
+.text-colorp2 {
+    color: #888888;
+}
+
+.background1 {
+    background-color: #F7F7F7;
+
+}
+
+.background2 {
+    background-color: #88888885;
+}
+
+.frist-font {
+    font-family: 'Poppins', sans-serif;
+}
+
+.second-font {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* start navbar */
+:root:not(:has(#home:target)) .nav-home {
+    background-color: white;
+    box-shadow: 2px 2px 50px 10px rgba(220, 220, 220, 0.5);
+    color: #000;
+}
+
+.navbar-toggler {
+    color: transparent;
+    border: none;
+}
+
+.navbar-toggler-icon {
+    color: #F4F4F4;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #fff;
+
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+
+}
+
+.navbar ul li .nav-link {
+    position: relative;
+}
+
+.nav-item .active::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 80%;
+    height: 2px;
+    background-color: #fff;
+    margin-left: 7px;
+}
+
+.icon-bar {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+/* end navbar */
+
+/* <!-- start header --> */
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imgs/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+header h2 {
+    line-height: 20px;
+}
+
+header h2 a {
+    line-height: 72px;
+
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+}
+
+header .icon1 ul li {
+    width: 2.2rem;
+    height: 2.2rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin-left: 5px;
+
+}
+
+header .icon1 ul li i {
+    font-size: 15px;
+
+}
+
+/* <!-- end header --> */
+/* <!-- start section about --> */
+.aboutsec {
+    position: relative;
+    z-index: 1;
+}
+
+.dot1 {
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    width: 350px;
+    height: 460px;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    z-index: -1;
+
+}
+
+
+.aboutsec img {
+    width: 90%;
+    margin-left: 40px;
+}
+
+
+.content1 h2 {
+    color: #343434;
+
+}
+
+.content1 h5 {
+    color: #999999;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-weight: 400;
+
+}
+
+.content1 p {
+    color: #748182;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+
+}
+
+.rang {
+    padding-top: 10px;
+    position: relative;
+}
+
+.rang .progress {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    height: 25px;
+
+}
+
+.content1 button {
+    padding: 10px 25px;
+    border-radius: 10px;
+
+}
+
+.content1 .but1 {
+    border: 1px solid #1C1C1C;
+    color: #fff;
+    background-color: #1C1C1C;
+    transition: all 0.5s;
+    position: relative;
+}
+
+
+.content1 .but1:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.content1 .but2 {
+    border: 1px solid #1C1C1C;
+    background-color: #fff;
+    transition: all 0.5s;
+}
+
+.content1 .but2:hover {
+    color: #fff;
+    background-color: #1C1C1C;
+
+}
+
+/* <!-- end section about --> */
+/* <!-- start section SERVICES --> */
+#scrollspyservices .h2 {
+    position: relative;
+    z-index: 1;
+}
+
+.dots {
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    width: 215px;
+    height: 40px;
+    position: absolute;
+    top: 25px;
+    left: 43%;
+    z-index: -1;
+
+}
+
+
+.content2 {
+    transition: all 0.5s;
+}
+
+.content2 p {
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 15px;
+}
+
+section ul {
+    padding: 0;
+    margin: 0;
+}
+
+section .icon2 ul li {
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: rgba(220, 215, 215, 0.3);
+    /* border: 1px solid rgba(0, 0, 0, 0.3); */
+    margin-left: 5px;
+    margin-bottom: 10px;
+
+}
+
+section .icon2 ul li i {
+    font-size: 25px;
+
+}
+
+section .content2:hover .icon2 ul li {
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+/* <!-- end section SERVICES --> */
+/* <!-- start section PORTFOLIO  --> */
+#scrollspyportfolio .h2 {
+    position: relative;
+    z-index: 1;
+}
+
+.dots {
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    width: 215px;
+    height: 40px;
+    position: absolute;
+    top: 25px;
+    left: 43%;
+    z-index: -1;
+
+}
+
+#scrollspyportfolio .nav-link {
+    color: #343434;
+}
+
+#scrollspyportfolio .nav-item .active {
+    position: relative;
+}
+
+#scrollspyportfolio .nav-item .active::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 3px auto;
+    content: "";
+    background-color: #111111;
+    width: 60%;
+    height: 3px;
+}
+
+section .icon3 ul li {
+    width: 2rem;
+    height: 2rem;
+    background-color: #000;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.5s;
+
+}
+
+section .icon3 ul li:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.worklayer {
+    background-color: #FDFDFD;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.folio:hover .worklayer {
+    opacity: 1;
+
+}
+
+/* <!-- end section PORTFOLIO  --> */
+/* <!-- start section feedback --> */
+#scrollspyClients .h2 {
+    position: relative;
+    z-index: 1;
+}
+
+.dots {
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    width: 310px;
+    height: 40px;
+    position: absolute;
+    top: 25px;
+    left: 40%;
+    z-index: -1;
+
+}
+
+.client img {
+    width: 100px;
+
+}
+
+.client span {
+    color: #888888;
+    font-size: 12px;
+    line-height: 17.1429px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #869791;
+
+}
+
+/* <!-- end section feedback --> */
+/* <!-- start section Team  --> */
+#scrollspyTeam .h2 {
+    position: relative;
+    z-index: 1;
+}
+
+.dots {
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    width: 310px;
+    height: 40px;
+    position: absolute;
+    top: 25px;
+    left: 40%;
+    z-index: -1;
+
+}
+
+#scrollspyTeam .caption {
+    background-color: #5B5B5B;
+    color: #fff;
+}
+
+section .icon4 ul li {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #000;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.5s;
+
+}
+
+section .icon4 ul li:hover {
+    background-color: #fff;
+    color: #000;
+    border: #000 1px solid;
+}
+
+.team {
+    overflow: hidden;
+}
+
+.teamlayer {
+    background-color: #FDFDFD;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 22%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.img2 img {
+    transition: all 0.5s;
+}
+
+.items:hover .img2 img {
+    transform: scale(1.1);
+}
+
+.team:hover .teamlayer {
+    opacity: 1;
+    transform: rotateY(-180deg);
+
+}
+
+.team:hover .teamlayer ul li {
+    transform: rotateY(-180deg);
+
+}
+
+/* <!-- end section Team  --> */
+
+/* <!-- start section blog  --> */
+.blog .content3 h3 span {
+    animation-name: number1, number2, number3, number4;
+
+}
+
+.blog .content3 .one::before {
+    content: "850";
+    animation: number1 2s 50;
+}
+
+
+@keyframes number1 {
+    0% {
+        content: "20";
+    }
+
+    10% {
+        content: "88";
+    }
+
+    20% {
+        content: "100";
+    }
+
+    30% {
+        content: "235";
+    }
+
+    40% {
+        content: "438";
+    }
+
+    50% {
+        content: "543";
+    }
+
+    80% {
+        content: "623";
+    }
+
+    90% {
+        content: "700";
+    }
+
+    100% {
+        content: "840";
+    }
+
+}
+
+.blog .content3 .two::before {
+    content: "230";
+    animation: number2 2s 50;
+}
+
+
+@keyframes number2 {
+    0% {
+        content: "10";
+    }
+
+    10% {
+        content: "38";
+    }
+
+    20% {
+        content: "50";
+    }
+
+    30% {
+        content: "99";
+    }
+
+    40% {
+        content: "123";
+    }
+
+    50% {
+        content: "154";
+    }
+
+    80% {
+        content: "199";
+    }
+
+    90% {
+        content: "211";
+    }
+
+    100% {
+        content: "229";
+    }
+}
+
+.blog .content3 .three::before {
+    content: "9450";
+    animation: number3 2s 50;
+}
+
+
+@keyframes number3 {
+    0% {
+        content: "10";
+    }
+
+    10% {
+        content: "50";
+    }
+
+    20% {
+        content: "100";
+    }
+
+    30% {
+        content: "299";
+    }
+
+    40% {
+        content: "450";
+    }
+
+    50% {
+        content: "555";
+    }
+
+    80% {
+        content: "799";
+    }
+
+    90% {
+        content: "863";
+    }
+
+    100% {
+        content: "933";
+    }
+}
+
+.blog .content3 .four::before {
+    content: "780";
+    animation: number4 2s 50;
+}
+
+
+@keyframes number4 {
+    0% {
+        content: "40";
+    }
+
+    10% {
+        content: "65";
+    }
+
+    20% {
+        content: "199";
+    }
+
+    30% {
+        content: "345";
+    }
+
+    40% {
+        content: "490";
+    }
+
+    50% {
+        content: "534";
+    }
+
+    80% {
+        content: "688";
+    }
+
+    90% {
+        content: "723";
+    }
+
+    100% {
+        content: "750";
+    }
+
+}
+
+/* <!-- end section blog  --> */
+
+/* <!-- start section contactus --> */
+#scrollspycontactus .h2 {
+    position: relative;
+    z-index: 1;
+}
+
+.dots {
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    width: 310px;
+    height: 40px;
+    position: absolute;
+    top: 25px;
+    left: 40%;
+    z-index: -1;
+
+}
+
+section .icon5 ul li {
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: #F4F4F4;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 16px;
+    transition: all 0.5s;
+
+}
+
+section .content4:hover .icon5 ul li {
+    background-color: #000;
+    color: #fff;
+}
+
+.input1 input {
+    background-color: #F4F4F4;
+    border: none;
+
+}
+
+.input2 input {
+    background-color: #F4F4F4;
+    border: none;
+
+}
+
+.form-control:focus {
+    border-color: #F4F4F4;
+    box-shadow: none;
+    background-color: #F4F4F4;
+}
+
+.input textarea {
+    background-color: #F4F4F4;
+    max-height: 150px;
+    max-width: 100%;
+    border: none;
+    resize: both;
+    overflow: auto;
+
+}
+
+#scrollspycontactus button {
+    padding: 8px 45px;
+    border-radius: 10px;
+
+}
+
+#scrollspycontactus .but3 button {
+    border: 1px solid #1C1C1C;
+    color: #fff;
+    background-color: #1C1C1C;
+    transition: all 0.5s;
+    position: relative;
+}
+
+#scrollspycontactus .but3 button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* <!-- end section contactus --> */
+/* <!-- start footer --> */
+footer {
+    background-color: #1C1C1C;
+    height: 120px;
+}
+
+/* <!-- end footer --> */
